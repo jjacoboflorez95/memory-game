@@ -63,6 +63,12 @@ Since all code is integrated into shared files, my work is embedded within the o
 - **HTML structure** (`index.html`).
 - **Styling and UI elements** (`memory.css`).
 
+## 🖼️ Screenshots
+
+| Home | Settings |
+|-----------|-----------|
+| ![Home](images/github/home.png) | ![Rooms](images/github/settings.png) |
+
 ## 📜 License
 
 This project was developed for educational purposes as part of a **college final project**.
