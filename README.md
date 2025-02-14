@@ -6,6 +6,8 @@
 
 This project was developed as a **college group project**, with multiple contributors working on different sections of the code. Since all JavaScript, HTML, and CSS code is contained within single shared files, my specific contributions are integrated within the overall development of the game.
 
+---
+
 ## 🚀 Features
 
 - 🎮 **Interactive Memory Game**: Players flip cards to find matching pairs.
@@ -15,24 +17,43 @@ This project was developed as a **college group project**, with multiple contrib
 - 🎨 **Styled UI**: Responsive and visually appealing interface.
 - ⚠️ **Turn-Based Selection**: Players must wait for the game to validate a match before selecting another pair. Rapid selection may cause unexpected behavior.
 
+---
+
+## 📌 Project Purpose
+
+This project demonstrates:
+
+- **JavaScript Game Development**: Implementing dynamic, interactive gameplay using JavaScript.
+- **DOM Manipulation**: Utilizing JavaScript and jQuery to manage game elements dynamically.
+- **Game Logic & State Management**: Ensuring smooth and engaging gameplay with tracking mechanisms.
+- **User Experience (UX) Optimization**: Enhancing engagement through animations, styling, and real-time feedback.
+- **Responsive Design**: Adapting the UI for different screen sizes and devices.
+- **Team Collaboration**: Integrating multiple contributions within a single shared codebase.
+
+---
+
 ## 📂 Project Structure
 
 ```
-📁 memory_game_project
- ├── 📄 index.html         # Main game interface
- ├── 📄 app.js            # JavaScript logic for the game
- ├── 📄 memory.css        # Styles for the game UI
- ├── 📄 jquery-ui.min.js  # jQuery UI library for interactive elements
- ├── 📄 jquery-ui.min.css # jQuery UI styles
- ├── 📁 images/             # Image assets
+📝 memory_game_project
+ ├── 📝 index.html         # Main game interface
+ ├── 📝 app.js            # JavaScript logic for the game
+ ├── 📝 memory.css        # Styles for the game UI
+ ├── 📝 jquery-ui.min.js  # jQuery UI library for interactive elements
+ ├── 📝 jquery-ui.min.css # jQuery UI styles
+ ├── 📝 images/             # Image assets
 ```
+
+---
 
 ## 🛠 Technologies Used
 
-- **HTML5**: Structure of the game.
-- **CSS3 & jQuery UI**: Styling and interactive animations.
-- **JavaScript (ES6+)**: Core game logic.
-- **jQuery**: Handles DOM manipulation and UI interactions.
+- **🌐 HTML5**: Structure of the game.
+- **🎨 CSS3 & jQuery UI**: Styling and interactive animations.
+- **📚 JavaScript (ES6+)**: Core game logic.
+- **🔄 jQuery**: Handles DOM manipulation and UI interactions.
+
+---
 
 ## 📌 Prerequisites
 
@@ -40,6 +61,8 @@ To run the project, ensure you have:
 
 - A modern web browser (Chrome, Firefox, Edge, etc.).
 - Internet access (to load external libraries like jQuery).
+
+---
 
 ## 🏃‍♂️ How to Play
 
@@ -55,6 +78,8 @@ To run the project, ensure you have:
 
 6️⃣ The game tracks your **attempts** and **high score**.
 
+---
+
 ## 🎯 My Contribution
 
 Since all code is integrated into shared files, my work is embedded within the overall project development, contributing to:
@@ -63,17 +88,20 @@ Since all code is integrated into shared files, my work is embedded within the o
 - **HTML structure** (`index.html`).
 - **Styling and UI elements** (`memory.css`).
 
-## 🖼️ Screenshots
+---
+
+## 🖼 Screenshots
 
 | Home | Settings |
 |-----------|-----------|
 | ![Home](images/github/home.png) | ![Rooms](images/github/settings.png) |
 
-## 📜 License
+---
+
+## 📝 License
 
 This project was developed for educational purposes as part of a **college final project**.
 
 ---
 
 💼 **Author:** Juan Jacobo Florez Monroy | 🚀 Portfolio: [Portfolio Website or GitHub]
-
