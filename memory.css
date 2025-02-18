@@ -1,0 +1,242 @@
+body {
+
+	width: 850px;
+	margin: 0 auto;
+	background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 26px;
+	padding: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+}
+main{
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1 {
+	font-size: 150%;
+	text-align: center;
+    color: #333;
+	margin-bottom: 0.5em;
+}
+label {
+	display: block;
+    margin: 10px;
+    color: #0f5f13;
+    font-weight: 700;
+	float: left;
+	width: 8em;
+}
+/* Rest of your CSS styles */
+header {
+   
+    border-radius: 5px;
+    padding: 10px;
+    padding: 20px;
+	font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 12px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    margin: 0 2em 1em 0;
+    color: #555;
+}
+
+#new_game,
+#player,
+#high_score,
+#correct {
+    float: left;
+    font-weight: bold;
+    margin-right: 7em;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="button"],
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF4081;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: #FF80AB;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active {
+    background-color: #FF1474;
+}
+
+input,
+select {
+	width: 10em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+input[type="checkbox"] {
+	width: 2em;
+}
+/* Rest of your CSS styles */
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    appearance: none;
+    background: url("dropdown-arrow.png") no-repeat right center / 16px;
+    background-color: #fff;
+}
+
+select:focus {
+    outline: none;
+    border-color: #FF4081;
+    box-shadow: 0 0 0 2px rgba(255, 64, 129, 0.5);
+}
+
+/* Add custom dropdown arrow image */
+select::-ms-expand {
+    display: none;
+}
+
+/* Add custom dropdown arrow image */
+select::-webkit-select-placeholder {
+    color: #888;
+}
+
+/* Add custom dropdown arrow image */
+select::-moz-placeholder {
+    color: #888;
+}
+
+/* Add custom dropdown arrow image */
+select:-moz-placeholder {
+    color: #888;
+}
+
+/* Add custom dropdown arrow image */
+select:-ms-input-placeholder {
+    color: #888;
+}
+
+header p {
+	margin: 0 2em 1em 0;
+}
+#new_game,
+#player,
+#high_score,
+#correct {
+	float: left;
+}
+#cards img {
+	height: 100px;
+	width: 80px;
+}
+.clear {
+	clear: both;
+}
+
+#cards {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(1, 100px);
+	grid-auto-columns: 80px;
+	grid-auto-rows: 100px;
+	column-gap: 0px;
+	row-gap: 10px;
+	justify-content: center;
+	justify-items: center;
+}
+#tabs {
+	padding-bottom: 20px;
+}
+
+#tabs #tabs-links {
+	display: flex;
+    list-style-type: none;
+    gap: 3px;
+    padding-left: 10px;
+    margin: 2px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+#tabs #tabs-links li {
+	margin: 10px 0px;
+	padding: 6px 10px;
+	font-size: x-large;
+}
+#tabs #tabs-links a {
+	text-decoration: none;
+}
+
+#tabs-1,
+#tabs-2,
+#tabs-3 {
+	margin: 0px 20px;
+}
+
+.divCardsRow {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.hide {
+	display: none;
+}
+/* Rest of your CSS styles */
+
+#save_settings {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF4081;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#save_settings:hover {
+    background-color: #FF80AB;
+}
+
+#save_settings:active {
+    background-color: #FF1474;
+}
